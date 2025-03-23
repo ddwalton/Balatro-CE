@@ -1,7 +1,7 @@
 # Balatro-CE
 Code by Dion Walton  
 ### Art / Joker ideas by:
-- u/_BaIIs_Deep_69_ (Unlucky Cat, Cosmonaut, Man vs. Bear, May)
+- u/_BaIIs_Deep_69_ (Unlucky Cat, Cosmonaut, Man vs. Bear, Matroyshka)
 ## Setup instructions
 1. Install [Steammodded](https://github.com/Steamodded/smods)
 2. Download balatroCE (click Code -> "Download ZIP")
