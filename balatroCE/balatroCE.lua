@@ -199,7 +199,7 @@ local jokers = {
                             card = self
                         }
                     end
-                    
+
                     return {
                         mult = context.other_card.base.nominal,
                         colour = G.C.RED,
