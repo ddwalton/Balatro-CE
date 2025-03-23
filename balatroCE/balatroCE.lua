@@ -4,9 +4,6 @@
 --- MOD_AUTHOR: [TheDiBZ]
 --- MOD_DESCRIPTION: Jokers made by YOU
 
-----------------------------------------------
-------------MOD CODE -------------------------
-
 local jokers = {
     unluckycat = {
         name = "Unlucky Cat",
@@ -212,17 +209,6 @@ local jokers = {
 }
 
 function SMODS.INIT.BBBalatro()
-    --localization for the info queue key
-    G.localization.descriptions.Other["your_key"] = {
-        name = "Example", --tooltip name
-        text = {
-            "TEXT L1",   --tooltip text.		
-            "TEXT L2",   --you can add as many lines as you want
-            "TEXT L3"    --more than 5 lines look odd
-        }
-    }
-    init_localization()
-
     --Create and register jokers
     for k, v in pairs(jokers) do --for every object in 'jokers'
         local joker = SMODS.Joker:new(v.name, k, v.config, v.pos, { name = v.name, text = v.text }, v.rarity, v.cost,
@@ -247,6 +233,3 @@ function SMODS.INIT.BBBalatro()
     SMODS.Sprite:new("TheDiBZ", SMODS.findModByID("BalatroCE").path, "atlasone.png", 69, 93, "asset_atli")
         :register()
 end
-
-----------------------------------------------
-------------MOD CODE END----------------------
