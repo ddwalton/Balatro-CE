@@ -196,10 +196,10 @@ local jokers = {
                         return {
                             message = localize('k_debuffed'),
                             colour = G.C.RED,
-                            card = self,
+                            card = self
                         }
                     end
-
+                    
                     return {
                         mult = context.other_card.base.nominal,
                         colour = G.C.RED,
